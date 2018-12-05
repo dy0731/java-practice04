@@ -3,15 +3,15 @@ package prob04;
 public class Depart extends Employee {
 	
 	//부서명
-	private String depart;
+	private String department;
 	
-	public Depart(String name, int salary, String depart) {
+	public Depart(String name, int salary, String department) {
 		setName(name);
 		setSalary(salary);
-		this.depart = depart;
+		this.department = department;
 	}
 	
 	public void getInformation() {
-		System.out.println( "이름:" + getName() + " 연봉:" + getSalary() + " 부서:" + depart );
+		System.out.println( "이름:" + getName() + " 연봉:" + getSalary() + " 부서:" + department );
 	}
 }
